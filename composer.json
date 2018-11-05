@@ -1,0 +1,42 @@
+{
+    "name": "ruwork/wizard",
+    "description": "Ruwork Wizard",
+    "type": "library",
+    "keywords": [
+        "ruwork"
+    ],
+    "homepage": "https://ruvents.github.io/ruwork/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Valentin Udaltsov",
+            "email": "udaltsov@ruvents.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3",
+        "psr/container": "^1.0",
+        "symfony/options-resolver": "^3.4 || ^4.0",
+        "symfony/property-access": "^3.4 || ^4.0"
+    },
+    "require-dev": {
+        "symfony/dependency-injection": "^3.4 || ^4.0",
+        "symfony/form": "^3.4 || ^4.0",
+        "symfony/http-foundation": "^3.4 || ^4.0",
+        "symfony/serializer": "^3.4 || ^4.0",
+        "symfony/validator": "^3.4 || ^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ruwork\\Wizard\\": ""
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.13-dev"
+        }
+    }
+}
